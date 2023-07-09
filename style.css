@@ -316,3 +316,16 @@ main {
   display: flex;
   flex-direction: column;
 }
+.phone-title::before{
+  content: url(./img/phone.svg);
+  margin-right: 0.5rem;
+}
+.email-title::before{
+  content: url(./img/email.svg);
+  margin-right: 0.5rem;
+}
+.phone-title,
+.email-title{
+  font-size: 1.2rem;
+  color: #01528c;
+}
