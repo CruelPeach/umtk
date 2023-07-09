@@ -1,6 +1,243 @@
-.header{
-  color: rebeccapurple;
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  background-color: #E8F0FA;
 }
-body{
-  background-color: aqua;
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 61rem;
+  margin: auto;
+  margin-top: 10px;
+  padding: .5rem 1rem;
+  background-color: white;
+  border: 1px solid #01528c;
+  border-bottom: 0;
+  border-radius: .3rem .3rem 0 0;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.nav-list-item-link {
+  display: inline-block;
+  padding: 0.8rem 1rem;
+  text-decoration: none;
+  color: #01528c;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+}
+
+.nav-list-item-link:hover {
+  background-color: #d1e0f5;
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+  width: 6rem;
+  margin-left: 0.8rem;
+}
+
+
+.banner {
+  display: flex;
+  flex-direction: row;
+  width: 62.5rem;
+  height: 450px;
+  background-color: #d1e0f5;
+  margin: auto;
+  box-shadow: 0px 8px 10px gray, -10px 8px 15px gray, 10px 8px 15px gray;
+  z-index: 2;
+}
+
+.banner-img {
+  height: 100%;
+  width: 50%;
+  background-image: url(./img/gear.jpg);
+  background-size: cover;
+}
+
+.banner-info {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.banner-info-logo-container {
+  width: 80%;
+}
+
+.banner-info-slogan {
+  margin-top: 3rem;
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #555c66;
+}
+
+.about {
+  width: 61rem;
+  margin: auto;
+  border: 1px solid #01528c;
+  border-top: 0;
+  border-bottom: 0;
+  background-color: white;
+  padding: 0 1.6rem 0.8rem 1.6rem;
+}
+
+.about-title {
+  text-align: center;
+  color: #01528c;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+  padding: 1.5rem 0;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.about-description {
+  width: 58%;
+}
+
+.about-goals {
+  width: 38%;
+  border: 0.2rem solid #01528c;
+  border-radius: 0.3rem;
+}
+
+.about-goals-title {
+  text-align: center;
+  color: #01528c;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+  padding-top: 1rem;
+}
+
+.about-goals-list {
+  background-color: white;
+  margin-left: 2rem;
+  padding-top: 1rem;
+  margin-bottom: 3rem;
+  width: 93%;
+  list-style: none;
+}
+
+.about-goals-list-item {
+  padding-bottom: 0.34rem;
+}
+
+.about-goals-list-item::before {
+  content: "\2022";
+  color: #01528c;
+  font-weight: bolder;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.about-description-text {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  padding-bottom: 0.8rem;
+  font-weight: 400;
+}
+
+.about-goals-list-item {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  font-style: italic;
+}
+
+
+
+
+.manufacturing {
+  width: 62.5rem;
+  margin: auto;
+  border: 1px solid #01528c;
+  box-shadow: 0px 8px 10px gray, -10px 8px 15px gray, 10px 8px 15px gray;
+  background-image: url(./img/10.svg);
+  background-repeat: no-repeat;
+  background-position: right 0% bottom -50%;
+  background-color: #d1e0f5;
+}
+.manufacturing-title {
+  text-align: center;
+  color: #01528c;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+  padding-top: 1.5rem;
+}
+.manufacturing-content{
+  display: flex;
+  flex-direction: row;
+  padding: 0 1.6rem;
+}
+.manufacturing-sectors{
+  width: 30%;
+}
+.manufacturing-equipment{
+  width: 70%;
+}
+.manufacturing-subtitle{  
+  color: #01528c;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+  padding-top: 1.5rem;
+  padding-bottom: 0.5rem;  
+}
+.manufacturing-list{
+  list-style: none;
+  padding-bottom: 1.5rem;
+}
+.manufacturing-list-item{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  font-style: italic;
+  line-height: 1.2rem;
+  padding-bottom: 0.8rem;
+  margin-left: 1rem;
+  font-weight: 400;
+  color: black;
+}
+.manufacturing-list-item::before{
+  content: "\2022";
+  color: #01528c;
+  font-weight: bolder;
+  display: inline-block;
+  width: 1rem;
+  margin-left: -1rem;
+}
+
+
+
+
+
+.partners {
+  width: 61rem;
+  margin: auto;
+}
+
+.footer {
+  width: 62.5rem;
+  margin: auto;
 }

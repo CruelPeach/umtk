@@ -3,12 +3,146 @@
 
 <head>
   <meta charset="utf-8">
+  <meta lang="ua">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <title>UMTK</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300;1,400&family=Raleway:ital,wght@0,600;1,200&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="normalize.css">
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-<h1 class="header">TITLE</h1>
+  <header class="header">
+    <div class="nav-logo"><img src="./img/logo.svg" alt="logo"></div>
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav-list-item">
+          <a href="#about" class="nav-list-item-link">Про нас</a>
+        </li>
+        <li class="nav-list-item">
+          <a href="#manufacturing" class="nav-list-item-link">Виробництво</a>
+        </li>
+        <li class="nav-list-item">
+          <a href="#" class="nav-list-item-link">Партнери</a>
+        </li>
+        <li class="nav-list-item">
+          <a href="#footer" class="nav-list-item-link">Контакти та реквiзити</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="banner">
+      <div class="banner-img"></div>
+      <div class="banner-info">
+        <div class="banner-info-logo-container">
+          <img src="./img/logo.svg" alt="logo">
+        </div>
+        <p class="banner-info-slogan">Якiсть. Гарантiї. Цiна. Стабiльнiсть.</p>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <h2 class="about-title">Про нас</h2>
+      <div class="about-content">
+        <div class="about-description">
+          <p class="about-description-text">Підприємство існує з 2001 р.</p>
+          <p class="about-description-text">Займається виробництвом запасних частин до тракторів, автомобілів та
+            комбайнів вітчизняного та імпортного виробництва.</p>
+          <p class="about-description-text">Вироби, що випускаються: вали, шестерні, втулки, осі, пальці, корпусні
+            вироби. Обробка сталі та чавуну.</p>
+          <p class="about-description-text">Замкнутий цикл виробництва.</p>
+          <p class="about-description-text">На кожному етапі виробництва відбувається контроль якості виконуваних робіт.
+            Усі запасні частини на етапі отримання готової продукції проходять жорсткий контроль якості.</p>
+          <p class="about-description-text">Технології виробництва, що застосовуються, дають можливість отримання
+            максимальної якості продукції з оптимальними характеристиками для їх тривалої та безвідмовної експлуатації.
+            Перебуваючи у тісній співпраці з суб'єктами господарювання, які експлуатують техніку, ТОВ «УМТК» має
+            можливість не тільки виробляти якісну продукцію, а й модифікувати її для досягнення оптимальних
+            експлуатаційних характеристик.</p>
+        </div>
+        <div class="about-goals">
+          <h3 class="about-goals-title">Нашi цiлi</h3>
+          <ul class="about-goals-list">
+            <li class="about-goals-list-item">постоянное удовлетворение потребности сельского хозяйства и транспортных
+              предприятий
+              Украины в запасных частях, узлах и агрегатах на отечественную и импортную технику.</li>
+            <li class="about-goals-list-item">предоставляет оптимальные условия сотрудничества для своих партнёров.</li>
+            <li class="about-goals-list-item">Дорожит своей
+              репутацией и с уважением относиться ко всем покупателям Компании.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="manufacturing" id="manufacturing">
+      <h2 class="manufacturing-title">Bиробництво</h2>
+      <div class="manufacturing-content">
+        <div class="manufacturing-sectors">
+          <h3 class="manufacturing-subtitle">Участки на производстве:</h3>
+          <ul class="manufacturing-list">
+            <li class="manufacturing-list-item">Заготовительный участок</li>
+            <li class="manufacturing-list-item">Кузня. Кузнечный участок</li>
+            <li class="manufacturing-list-item">Токарный участок</li>
+            <li class="manufacturing-list-item">Фрезерный участок</li>
+            <li class="manufacturing-list-item">Сверловочный участок</li>
+            <li class="manufacturing-list-item">Зуборезный участок</li>
+            <li class="manufacturing-list-item">Термический участок</li>
+            <li class="manufacturing-list-item">Шлифовальный участок</li>
+            <li class="manufacturing-list-item">Сварочный участок</li>
+          </ul>
+        </div>
+
+        <div class="manufacturing-equipment">
+          <h3 class="manufacturing-subtitle">Оборудование:</h3>
+          <ul class="manufacturing-list">
+            <li class="manufacturing-list-item">Ленточнопильные станки</li>
+            <li class="manufacturing-list-item">Токарные станки с ЧПУ с возможностью обработки заготовки длиной 1 м. и максимальным диаметром
+              500 мм</li>
+            <li class="manufacturing-list-item">Вертикально-фрезерные станки с ЧПУ</li>
+            <li class="manufacturing-list-item">Горизонтально-фрезерные 4-х осные станки с ЧПУ с возможностью обработки заготовки длиной до 1 м.,
+              шириной до 60 мм., высотой до 600 мм., максимальный модуль М6</li>
+            <li class="manufacturing-list-item">Цементационные печи</li>
+            <li class="manufacturing-list-item">Закалочные печи</li>
+            <li class="manufacturing-list-item">Установка ТВЧ закалки мощностью до 100 кВт и длиной заготовки до 2 м.</li>
+            <li class="manufacturing-list-item">Круглошлифовальные станки с максимальным диаметром заготовки до 250 мм.</li>
+            <li class="manufacturing-list-item">Бесцентровошлифовальные станки</li>
+          </ul>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="partners">
+      <h2>Партнери</h2>
+      <p>
+         ОАО «ХТЗ». Сайт: http://xtz.ua/ua/
+         ООО «Техноторг-Дон». Сайт: https://technotorg.com/
+         ООО «Украгрозапчасть». Сайт: https://ukragrozapchast.com.ua/ua/
+         ООО «Омега Автопоставка». Сайт: https://omega.page/
+         ООО «ТД «Форсаж».
+      </p>
+    </section>
+  </main>
+
+  <footer class="footer" id="footer">
+    <h3>Контакти та реквiзити</h3>
+    <p>Наши реквизиты:
+      Наименование - ТОВ «УМТК»
+      Код ЄДРПОУ 31797087
+      ІПН 317970820231
+      п/р UA603348510000000002600034284
+      Юридический адрес: 62418, Харківська обл., Харківський р-н, с. Надточії, вул. Дачна, буд. 39
+      Физический адрес: Юридический адрес: 62418, Харківська обл., Харківський р-н, с. Надточії, вул. Дачна, буд. 39
+      Контакты:
+      Отдел маркетинга и сбыта – 068-7670136, 050-2933951
+      Электронка: umtk.bsv@gmail.com</p>
+  </footer>
+
 </body>
 
 </html>
