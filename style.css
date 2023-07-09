@@ -5,7 +5,8 @@ body {
   width: 100%;
   background-color: #E8F0FA;
 }
-main{
+
+main {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -136,6 +137,7 @@ main{
   background-color: white;
   margin-left: 2rem;
   padding-top: 1rem;
+  padding-right: 1rem;
   margin-bottom: 3rem;
   width: 93%;
   list-style: none;
@@ -179,7 +181,9 @@ main{
   background-repeat: no-repeat;
   background-position: right 0% bottom -50%;
   background-color: #d1e0f5;
+  z-index: 1;
 }
+
 .manufacturing-title {
   text-align: center;
   color: #01528c;
@@ -188,30 +192,36 @@ main{
   font-size: 2rem;
   padding-top: 1.5rem;
 }
-.manufacturing-content{
+
+.manufacturing-content {
   display: flex;
   flex-direction: row;
   padding: 0 1.6rem;
 }
-.manufacturing-sectors{
+
+.manufacturing-sectors {
   width: 30%;
 }
-.manufacturing-equipment{
+
+.manufacturing-equipment {
   width: 70%;
 }
-.manufacturing-subtitle{  
+
+.manufacturing-subtitle {
   color: #01528c;
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
   font-size: 1.2rem;
   padding-top: 1.5rem;
-  padding-bottom: 0.5rem;  
+  padding-bottom: 0.5rem;
 }
-.manufacturing-list{
+
+.manufacturing-list {
   list-style: none;
   padding-bottom: 1.5rem;
 }
-.manufacturing-list-item{
+
+.manufacturing-list-item {
   font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
   font-style: italic;
@@ -221,7 +231,8 @@ main{
   font-weight: 400;
   color: black;
 }
-.manufacturing-list-item::before{
+
+.manufacturing-list-item::before {
   content: "\2022";
   color: #01528c;
   font-weight: bolder;
@@ -232,14 +243,76 @@ main{
 
 
 
-
-
 .partners {
   width: 61rem;
-  margin: auto;
+  background-color: white;
+  border: 1px solid #01528c;
+  border-top: 0;
+  border-bottom: 0;
+}
+
+.partners-title {
+  text-align: center;
+  color: #01528c;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+  padding: 1.5rem 0;
+}
+
+.partners-logo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.partners-logo img {
+  height: 3rem;
+}
+
+.partners-logo-text {
+  color: #01528c;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
 }
 
 .footer {
   width: 62.5rem;
   margin: auto;
+  margin-bottom: 0.7rem;
+  padding: 1.5rem 1.6rem;
+  border: 1px solid #01528c;
+  box-shadow: 0px 8px 10px gray, -10px 8px 15px gray, 10px 8px 15px gray;  
+  background-color: #d1e0f5;
+  z-index: 1;
+}
+
+.footer-title {
+  text-align: center;
+  color: #01528c;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+  padding-bottom: 1.5rem;
+}
+.footer-content{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.footer-item{
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.9rem;
+  padding-bottom: 0.3rem;
+  font-weight: 400;
+}
+
+.footer-contacts{
+  display: flex;
+  flex-direction: column;
 }
