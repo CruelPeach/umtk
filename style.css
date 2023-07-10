@@ -316,23 +316,45 @@ main {
   font-family: 'Open Sans', sans-serif;
   font-size: 0.9rem;
   padding-bottom: 0.3rem;
-  font-weight: 400;
+  color: #01528c;
+  font-weight: 600;
 }
 
-.footer-contacts{
+.contacts{
   display: flex;
   flex-direction: column;
 }
 .phone-title::before{
   content: url(./img/phone.svg);
   margin-right: 0.5rem;
+  position: relative;
+  bottom: -0.12rem;
 }
 .email-title::before{
   content: url(./img/email.svg);
   margin-right: 0.5rem;
+  position: relative;
+  bottom: -0.17rem;
 }
+.location-title::before{
+  content: url(./img/location.svg);
+  margin-right: 0.5rem;
+}
+
 .phone-title,
-.email-title{
+.email-title,
+.location-title{
   font-size: 1.2rem;
   color: #01528c;
+  padding-bottom: 0.3rem;
+}
+.requisites,
+.contacts{
+  flex: 1;
+}
+.location{
+  flex: 1.15;
+}
+.contact-item{
+  margin-left: 1.5rem;
 }
