@@ -155,8 +155,8 @@ main {
   background-color: #d1e0f5;
   color: #01528c;
   width: 15rem;
-  border-radius: 50%;
-  aspect-ratio: 1;
+  height: 15rem;
+  border-radius: 50%;  
   font-size: 1.7rem;
   font-weight: 600;
   margin-left: -0.8rem;
