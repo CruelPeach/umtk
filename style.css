@@ -3,6 +3,7 @@ body {
   flex-direction: column;
   justify-content: center;
   width: 100%;
+  min-width: 62.5rem;
   background-color: #E8F0FA;
 }
 
@@ -19,7 +20,7 @@ main {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 61rem;
+  min-width: 61rem;
   margin: auto;
   margin-top: 10px;
   padding: .5rem 1rem;
@@ -87,6 +88,7 @@ main {
 .banner-info-slogan {
   margin-top: 3rem;
   font-size: 2.5rem;
+  line-height: 1.5;
   font-weight: 600;
   color: #555c66;
 }
@@ -119,7 +121,7 @@ main {
 .about-description-text {
   font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
-  line-height: 1.2rem;
+  line-height: 1.5;
   padding-bottom: 0.8rem;
   font-weight: 400;
   text-align: justify;
@@ -296,7 +298,7 @@ thead .manufacturing-cell {
   padding-bottom: 0.3rem;
   color: #01528c;
   font-weight: 600;
-  line-height: 1.1rem;
+  line-height: 1.5;
 }
 
 .contacts{
@@ -319,6 +321,10 @@ thead .manufacturing-cell {
   content: url(./img/location.svg);
   margin-right: 0.5rem;
 }
+.location-item{
+  font-size: 1rem;
+  line-height: 1.5;
+}
 
 .phone-title,
 .email-title,
@@ -336,6 +342,7 @@ thead .manufacturing-cell {
 }
 .contact-item{
   margin-left: 1.5rem;
+  line-height: 1.5;
 }
 .requisites{
   display: flex;
