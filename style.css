@@ -4,45 +4,43 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   width: 100%;
   min-width: 62.5rem;
   background-color: #E8F0FA;
 }
-
 main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   min-width: 62.5rem;
   width: 100%;
 }
-
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   min-width: 61rem;
   margin: auto;
   margin-top: 10px;
@@ -52,18 +50,16 @@ main {
   border-bottom: 0;
   border-radius: .3rem .3rem 0 0;
 }
-
 .nav-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   list-style: none;
 }
-
 .nav-list-item-link {
   display: inline-block;
   padding: 0.8rem 1rem;
@@ -72,46 +68,41 @@ main {
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
 }
-
 .nav-list-item-link:hover {
   background-color: #d1e0f5;
 }
-
 .nav-logo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   width: 6rem;
+  height: 1.8125rem;
   margin-left: 0.8rem;
 }
-
-
 .banner {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   width: 62.5rem;
   height: 450px;
   background-color: #d1e0f5;
   -webkit-box-shadow: 0px 8px 10px gray, -10px 8px 15px gray, 10px 8px 15px gray;
-          box-shadow: 0px 8px 10px gray, -10px 8px 15px gray, 10px 8px 15px gray;
+  box-shadow: 0px 8px 10px gray, -10px 8px 15px gray, 10px 8px 15px gray;
   z-index: 2;
 }
-
 .banner-img {
   height: 100%;
   width: 50%;
   background-image: url(./img/gear.jpg);
   background-size: cover;
 }
-
 .banner-info {
   width: 50%;
   display: -webkit-box;
@@ -119,17 +110,15 @@ main {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
-
 .banner-info-logo-container {
   width: 80%;
 }
-
 .banner-info-slogan {
   margin-top: 3rem;
   font-size: 2.5rem;
@@ -137,7 +126,6 @@ main {
   font-weight: 600;
   color: #555c66;
 }
-
 .white-block {
   width: 61rem;
   border: 1px solid #01528c;
@@ -145,11 +133,9 @@ main {
   border-bottom: 0;
   background-color: white;
 }
-
-.about {  
+.about {
   padding: 0 1.6rem 0.8rem 1.6rem;
 }
-
 .about-title {
   text-align: center;
   color: #01528c;
@@ -158,11 +144,9 @@ main {
   font-size: 2rem;
   padding: 1.5rem 0;
 }
-
 .about-description {
   width: 58%;
 }
-
 .about-description-text {
   font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
@@ -171,13 +155,11 @@ main {
   font-weight: 400;
   text-align: justify;
 }
-
 .priority-list{
   margin-left: 2rem;
   padding-right: 1rem;
   list-style: none;
 }
-
 .priority-list-item{
   font-family: 'Open Sans', sans-serif;
   font-style: italic;
@@ -193,29 +175,28 @@ main {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   list-style: none;
   margin-bottom: 1.5rem;
 }
-
 .advantages-list-item{
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   background-color: #d1e0f5;
   color: #01528c;
   width: 15rem;
   height: 15rem;
-  border-radius: 50%;  
+  border-radius: 50%;
   font-size: 1.7rem;
   font-weight: 600;
   margin-left: -0.8rem;
@@ -225,19 +206,18 @@ main {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   width: 100%;
   height: 9rem;
   padding: 0.5rem 0.5rem;
   margin-left: 2.3rem;
-  border: 3px #01528c solid;  
+  border: 3px #01528c solid;
   border-radius: 10%;
   background-color: #E8F0FA;
   text-align: center;
 }
-
-.priority-list-item::before  {
+.priority-list-item::before {
   content: "\2022";
   color: #01528c;
   font-weight: bolder;
@@ -245,12 +225,11 @@ main {
   width: 1em;
   margin-left: -1em;
 }
-
 .manufacturing {
   width: 62.5rem;
   border: 1px solid #01528c;
   -webkit-box-shadow: 0px 8px 10px gray, -10px 8px 15px gray, 10px 8px 15px gray;
-          box-shadow: 0px 8px 10px gray, -10px 8px 15px gray, 10px 8px 15px gray;
+  box-shadow: 0px 8px 10px gray, -10px 8px 15px gray, 10px 8px 15px gray;
   background-image: url(./img/10.svg);
   background-repeat: no-repeat;
   background-position: bottom -4rem right -3rem;
@@ -258,7 +237,6 @@ main {
   background-color: #d1e0f5;
   z-index: 1;
 }
-
 .manufacturing-title {
   text-align: center;
   color: #01528c;
@@ -271,12 +249,12 @@ main {
   font-size: 0px;
 }
 .manufacturing-table{
-  width: 95%;  
+  width: 95%;
   margin: 2.5%;
   border-collapse:collapse;
 }
 .manufacturing-cell{
-  border: 1px solid #01528c;  
+  border: 1px solid #01528c;
   padding: .3rem .5rem;
   font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
@@ -291,18 +269,12 @@ thead .manufacturing-cell {
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
 }
-
 .manufacturing-table tr td:nth-child(1){
   width: 30%;
 }
 .manufacturing-table tr td:nth-child(2){
   width: 70%;
 }
-
-
-
-
-
 .partners-title {
   text-align: center;
   color: #01528c;
@@ -311,29 +283,26 @@ thead .manufacturing-cell {
   font-size: 2rem;
   padding: 1.5rem 0;
 }
-
 .partners-logo-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   gap: 3rem;
   padding-bottom: 1.5rem;
 }
-
 .partners-logo img {
   height: 3rem;
 }
-
 .footer {
   width: 62.5rem;
   margin: auto;
@@ -341,7 +310,7 @@ thead .manufacturing-cell {
   padding: 1.5rem 1.6rem;
   border: 1px solid #01528c;
   -webkit-box-shadow: 0px 8px 10px gray, -10px 8px 15px gray, 10px 8px 15px gray;
-          box-shadow: 0px 8px 10px gray, -10px 8px 15px gray, 10px 8px 15px gray;  
+  box-shadow: 0px 8px 10px gray, -10px 8px 15px gray, 10px 8px 15px gray;
   background-color: #d1e0f5;
   z-index: 1;
   background-image: url(./img/contacts.svg);
@@ -349,7 +318,6 @@ thead .manufacturing-cell {
   background-position: 3rem 1rem;
   background-size: contain;
 }
-
 .footer-title {
   text-align: center;
   color: #01528c;
@@ -364,8 +332,8 @@ thead .manufacturing-cell {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   gap: 1rem;
 }
 .footer-item{
@@ -377,15 +345,14 @@ thead .manufacturing-cell {
   font-weight: 600;
   line-height: 1.5;
 }
-
 .contacts{
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 .phone-title::before{
   content: url(./img/phone.svg);
@@ -407,24 +374,20 @@ thead .manufacturing-cell {
   font-size: 1rem;
   line-height: 1.5;
 }
-
-.phone-title,
-.email-title,
-.location-title{
+.phone-title, .email-title, .location-title{
   font-size: 1.2rem;
   color: #01528c;
   padding-bottom: 0.3rem;
 }
-.requisites,
-.contacts{
+.requisites, .contacts{
   -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  -ms-flex: 1;
+  flex: 1;
 }
 .location{
   -webkit-box-flex: 1.15;
-      -ms-flex: 1.15;
-          flex: 1.15;
+  -ms-flex: 1.15;
+  flex: 1.15;
 }
 .contact-item{
   margin-left: 1.5rem;
@@ -436,9 +399,9 @@ thead .manufacturing-cell {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;  
+  -ms-flex-pack: center;
+  justify-content: center;
 }
