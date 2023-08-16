@@ -1,25 +1,48 @@
 body {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 100%;
   min-width: 62.5rem;
   background-color: #E8F0FA;
 }
 
 main {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   min-width: 62.5rem;
   width: 100%;
 }
 
 .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   min-width: 61rem;
   margin: auto;
   margin-top: 10px;
@@ -31,8 +54,13 @@ main {
 }
 
 .nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   list-style: none;
 }
 
@@ -50,20 +78,30 @@ main {
 }
 
 .nav-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 6rem;
   margin-left: 0.8rem;
 }
 
 
 .banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   width: 62.5rem;
   height: 450px;
   background-color: #d1e0f5;
-  box-shadow: 0px 8px 10px gray, -10px 8px 15px gray, 10px 8px 15px gray;
+  -webkit-box-shadow: 0px 8px 10px gray, -10px 8px 15px gray, 10px 8px 15px gray;
+          box-shadow: 0px 8px 10px gray, -10px 8px 15px gray, 10px 8px 15px gray;
   z-index: 2;
 }
 
@@ -76,9 +114,16 @@ main {
 
 .banner-info {
   width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .banner-info-logo-container {
@@ -143,17 +188,29 @@ main {
   padding-bottom: .5rem;
 }
 .advantages-list{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   list-style: none;
   margin-bottom: 1.5rem;
 }
 
 .advantages-list-item{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background-color: #d1e0f5;
   color: #01528c;
   width: 15rem;
@@ -164,8 +221,12 @@ main {
   margin-left: -0.8rem;
 }
 .advantages-list-item span{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 100%;
   height: 9rem;
   padding: 0.5rem 0.5rem;
@@ -188,7 +249,8 @@ main {
 .manufacturing {
   width: 62.5rem;
   border: 1px solid #01528c;
-  box-shadow: 0px 8px 10px gray, -10px 8px 15px gray, 10px 8px 15px gray;
+  -webkit-box-shadow: 0px 8px 10px gray, -10px 8px 15px gray, 10px 8px 15px gray;
+          box-shadow: 0px 8px 10px gray, -10px 8px 15px gray, 10px 8px 15px gray;
   background-image: url(./img/10.svg);
   background-repeat: no-repeat;
   background-position: bottom -4rem right -3rem;
@@ -251,10 +313,19 @@ thead .manufacturing-cell {
 }
 
 .partners-logo-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   gap: 3rem;
   padding-bottom: 1.5rem;
 }
@@ -269,7 +340,8 @@ thead .manufacturing-cell {
   margin-bottom: 0.7rem;
   padding: 1.5rem 1.6rem;
   border: 1px solid #01528c;
-  box-shadow: 0px 8px 10px gray, -10px 8px 15px gray, 10px 8px 15px gray;  
+  -webkit-box-shadow: 0px 8px 10px gray, -10px 8px 15px gray, 10px 8px 15px gray;
+          box-shadow: 0px 8px 10px gray, -10px 8px 15px gray, 10px 8px 15px gray;  
   background-color: #d1e0f5;
   z-index: 1;
   background-image: url(./img/contacts.svg);
@@ -287,8 +359,13 @@ thead .manufacturing-cell {
   padding-bottom: 1.5rem;
 }
 .footer-content{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   gap: 1rem;
 }
 .footer-item{
@@ -302,8 +379,13 @@ thead .manufacturing-cell {
 }
 
 .contacts{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 .phone-title::before{
   content: url(./img/phone.svg);
@@ -335,17 +417,28 @@ thead .manufacturing-cell {
 }
 .requisites,
 .contacts{
-  flex: 1;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
 .location{
-  flex: 1.15;
+  -webkit-box-flex: 1.15;
+      -ms-flex: 1.15;
+          flex: 1.15;
 }
 .contact-item{
   margin-left: 1.5rem;
   line-height: 1.5;
 }
 .requisites{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: center;  
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;  
 }
